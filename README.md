@@ -22,9 +22,9 @@ O servidor será iniciado na porta 8080.
 
 ### Página inicial
 - **GET /** - Retorna uma mensagem de boas-vindas
+- **GET /health** - Retorna o Health Check
 
 ### Tarefas
-- **GET /health** - Retorna o Health Check
 - **GET /api/tarefas** - Lista todas as tarefas
 - **POST /api/tarefas** - Cria uma nova tarefa
 - **GET /api/tarefas/{id}** - Retorna uma tarefa específica
